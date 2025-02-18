@@ -7,5 +7,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-image: url(https://picsum.photos/800/700);
+		filter: grayscale(100%);
 	}
 </style>
