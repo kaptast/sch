@@ -12,10 +12,10 @@
 	}
 </script>
 
-<header>
-	<h1>SCH</h1>
-	<MenuOpener />
-	<div>
+<header class="flex w-full items-center justify-between py-2 pr-5 pl-10">
+	<h1 class="text-4xl font-bold text-white">SCH</h1>
+	<MenuOpener class="lg:hidden" />
+	<div class="hidden lg:block">
 		<button onclick={() => switchToLanguage('en')}>en</button>
 		<button onclick={() => switchToLanguage('de')}>de</button>
 		<button onclick={() => switchToLanguage('hu')}>hu</button>
