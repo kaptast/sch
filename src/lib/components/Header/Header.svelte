@@ -10,9 +10,23 @@
 		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
 		goto(localisedPath);
 	}
+
+	function isActualLanguageTag(lang: AvailableLanguageTag): boolean {
+		return lang == languageTag();
+	}
+
+	let scrollY = $state(0);
+
+	let opacity = $derived(Math.min((scrollY / 600) * 100, 95));
+	let padding = $derived(Math.max(24 - scrollY / 20, 8));
 </script>
 
-<header class="flex w-full items-center justify-between py-2 pr-5 pl-10">
+<svelte:window bind:scrollY />
+
+<header
+	style="--header-opacity: {opacity}%; --heading-padding: {padding}px"
+class="fixed top-0 right-0 left-0 z-50 flex w-full items-center justify-between bg-yellow-700/[var(--header-opacity)] py-[var(--heading-padding)] pr-5 pl-10 transition-opacity"
+>
 	<h1 class="text-4xl font-bold text-white">SCH</h1>
 	<MenuOpener class="lg:hidden" />
 	<div class="hidden lg:block">
