@@ -12,7 +12,8 @@
 	import Header from '$lib/components/Header/Header.svelte';
 	import Hero from '$lib/components/Hero/Hero.svelte';
 	import Map from '$lib/components/Map/Map.svelte';
-	import Wines from '$lib/components/Wines/Wines.svelte';
+	import WinesHeader from '$lib/components/Wines/Header.svelte';
+	import WinesSwiper from '$lib/components/Wines/Swiper.svelte';
 </script>
 
 <main>
@@ -20,7 +21,8 @@
 		<Header />
 		<Hero />
 		<About />
-		<Wines />
+		<WinesHeader />
+		<WinesSwiper />
 		<Images />
 		<Map />
 		<Contact />
