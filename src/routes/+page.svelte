@@ -24,8 +24,8 @@
 		<WinesHeader />
 		<WinesSwiper />
 		<Images />
-		<Map />
 		<Contact />
+		<Map />
 		<Footer />
 	</ParaglideJS>
 </main>
