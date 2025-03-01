@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { contact } from '$lib/paraglide/messages';
+	import Heading from '../Heading.svelte';
 </script>
 
 <section class="bg-white">
 	<div class="content">
 		<div class="flex w-full flex-col items-center">
-			<h3 class="my-10 text-xl font-bold text-stone-800 uppercase">{contact()}</h3>
+			<Heading text={contact()} />
 
 			<i>ICON</i>
 			<h4 class="mb-10">Cím</h4>
