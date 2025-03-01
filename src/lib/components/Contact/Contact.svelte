@@ -1,7 +1,11 @@
+<script lang="ts">
+	import { contact } from '$lib/paraglide/messages';
+</script>
+
 <section class="bg-white">
 	<div class="content">
 		<div class="flex w-full flex-col items-center">
-			<h3 class="my-10 text-xl font-bold text-stone-800 uppercase">Kapcsolat</h3>
+			<h3 class="my-10 text-xl font-bold text-stone-800 uppercase">{contact()}</h3>
 
 			<i>ICON</i>
 			<h4 class="mb-10">Cím</h4>

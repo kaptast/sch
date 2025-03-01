@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { wines } from '$lib/paraglide/messages';
+
 	let scrollY = $state(0);
 	let contentRect = $state({ top: 0 });
 
