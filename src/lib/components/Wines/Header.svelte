@@ -13,7 +13,7 @@
 	style="--scroll-position: {scrollPosition}px"
 	class="flex h-[40dvh] w-full items-center justify-center"
 >
-	<h2 class="text-7xl font-bold text-white uppercase">Boraink</h2>
+	<h2 class="font-imperial text-7xl font-normal text-white">{wines()}</h2>
 </section>
 
 <style>

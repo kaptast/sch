@@ -27,7 +27,7 @@
 	style="--header-opacity: {opacity}%; --heading-padding: {padding}px"
 	class="fixed top-0 right-0 left-0 z-50 flex w-full items-center justify-between bg-yellow-700/[var(--header-opacity)] py-[var(--heading-padding)] pr-5 pl-10 transition-opacity"
 >
-	<h1 class="text-4xl font-bold text-white">SCH</h1>
+	<h1 class="font-imperial text-4xl font-normal text-white">Sch</h1>
 	<MenuOpener class="lg:hidden" />
 	<div class="hidden gap-1 text-white lg:flex lg:items-center">
 		<button

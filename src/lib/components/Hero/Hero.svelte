@@ -6,12 +6,7 @@
 
 <svelte:window bind:scrollY />
 
-<section
-	id="hero"
-	style="--scroll-position: {scrollPosition}px"
-	class="relative flex h-[70dvh] w-full items-center justify-center"
->
-	<h2 class="text-7xl font-bold text-white uppercase">SCHENEK</h2>
+	<h2 class="font-imperial text-9xl font-normal text-white brightness-200">Schenek Présház</h2>
 </section>
 
 <style>

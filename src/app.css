@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@theme {
+	--font-imperial: 'Imperial Script', cursive;
+}
+
 .content {
 	@apply p-4 lg:mx-auto lg:w-[1280px];
 }

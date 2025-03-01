@@ -1,6 +1,6 @@
 <section class="bg-amber-100/25 p-10 text-center text-yellow-800">
 	<div class="content">
-		<h2 class="text-5xl font-semibold uppercase">SCHENEK</h2>
+		<h2 class="font-imperial text-5xl font-normal">Schenek Présház</h2>
 
 		<h3 class="text-xl font-bold text-stone-800 uppercase">Bemutatkozás</h3>
 
